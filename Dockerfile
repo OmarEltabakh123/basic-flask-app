@@ -4,6 +4,7 @@ USER root
 
 WORKDIR /app
 
+# تثبيت الحزم المطلوبة
 RUN apt-get update -y && apt-get install -y \
     python3.6 \
     python3-pip \
